@@ -1,0 +1,82 @@
+# Window configuration
+window:
+  dimensions:
+    columns: 110
+    lines: 26
+
+  padding:
+    x: 2
+    y: 2
+
+  dynamic_padding: false
+
+  auto_scroll: true
+
+# Font configuration
+font:
+  normal:
+    family: RobotoMono Nerd Font
+    style: Medium
+
+  bold:
+    style: Bold
+
+  italic:
+    style: Medium
+
+  bold_italic:
+    style: Bold
+
+  size: 11
+  offset:
+    x: 0
+    y: 2
+  glyph_offset:
+    x: 0
+    y: 0
+draw_bold_text_with_bright_colors: true
+
+# Colors (Solarized Dark)
+colors:
+  # Default colors
+  primary:
+    background: '0x00252e'
+    foreground: '0x93a1a1'
+
+  # Normal colors
+  normal:
+    black:      '0x073642'
+    red:        '0xdc322f'
+    green:      '0x859900'
+    yellow:     '0xb58900'
+    blue:       '0x268bd2'
+    magenta:    '0xd33682'
+    cyan:       '0x2aa198'
+    white:      '0xeee8d5'
+
+  # Bright colors
+  bright:
+    black:      '0x073642'
+    red:        '0xdc322f'
+    green:      '0x859900'
+    yellow:     '0xb58900'
+    blue:       '0x268bd2'
+    magenta:    '0xd33682'
+    cyan:       '0x2aa198'
+    white:      '0xeee8d5'
+
+  # Cursor
+  cursor:
+    cursor:     '0xdc322f'
+    text:       '0x00252e'
+
+background_opacity: 1
+
+cursor:
+  style: Block
+  unfocused_hollow: true
+
+# Keybindings
+# key_bindings:
+  # - { key: Add, mods: Control, action: IncreaseFontSize }
+  # - { key: Minus, mods: Control, action: DecreaseFontSize }

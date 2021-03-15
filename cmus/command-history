@@ -1,0 +1,21 @@
+set output_plugin=pulse
+set output_plugin=alsa
+set mixer.alsa.channel=Master
+set mixer.alsa.device=default
+set dsp.alsa.device=default
+bind -f browser space player-pause
+bind -f browser s
+save
+w
+set mixer.oss.channel=PCM
+bind -f common ] vol +1%
+bind -f common [ vol -1%
+bind -f common ] vol -1%
+bind -f common [ vol +1%
+set color_cmdline_bg=black
+colorscheme solarized-dark
+colorscheme zenburn
+colorscheme gruvbox
+bind -f common - vol -5%
+bind -f common + vol +5%
+bind -f common + vol +%

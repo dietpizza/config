@@ -1,0 +1,68 @@
+{
+  "suggest.noselect": false,
+  "suggest.completionItemKindLabels": {
+    "keyword": "Keyword",
+    "variable": "Variable",
+    "value": "Value",
+    "operator": "Operator",
+    "function": "Function",
+    "reference": "Referance",
+    "constant": "Constant",
+    "method": "Method",
+    "struct": "Struct",
+    "class": "Class",
+    "interface": "Interface",
+    "text": "Text",
+    "enum": "Enum",
+    "enumMember": "Enum Member",
+    "module": "Module",
+    "color": "Color",
+    "property": "Property",
+    "field": "Field",
+    "unit": "Unit",
+    "event": "Event",
+    "file": "File",
+    "folder": "Folder",
+    "snippet": "Snippet",
+    "typeParameter": "Type",
+    "default": "..."
+  },
+  "explorer.position": "left",
+  "explorer.width": 35,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.file.showHiddenFiles": true,
+  "explorer.file.column.indent.indentLine": true,
+  "explorer.quitOnOpen": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.file.root.template": " [fullpath]",
+  "explorer.file.child.template": "[git | 2] [indent][icon] [diagnosticError & 1][filename omitCenter 1] [modified][readonly]",
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", ["expanded?", "collapse", "expand"], "open"]
+  },
+  "explorer.sources": [
+    {
+      "name": "file",
+      "expand": true
+    }
+  ],
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "html",
+    "css",
+    "scss",
+    "cpp",
+    "c",
+    "py"
+  ],
+  "coc-actions.showActionKind": false,
+  "coc-actions.hideCursor": true,
+  "typescript.suggestionActions.enabled": false,
+  "javascript.suggestionActions.enabled": false,
+  "tailwindCSS.headwind.runOnSave": true,
+  "flutter.outlineWidth": 45,
+  "flutter.UIPath": false
+}
